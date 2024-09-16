@@ -23,12 +23,10 @@ def xor(a, b):
     return [x ^ y for x, y in zip(a, b)]
 
 # Convert list to string
-# From mandatory assignment 1 problem 2
 def bits_to_string(bits):
     return ''.join(str(b) for b in bits)
 
 # Converts a binary string to a list of bits
-# From mandatory assignment 1 problem 2
 def string_to_bits(s):
     return [int(b) for b in s]
 
